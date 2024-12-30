@@ -1,0 +1,28 @@
+
+  .Footer{
+    background-color: #4a0fa0;
+    height: 190px;
+    font-family: 'Wanted Sans';
+    font-size: 16px;
+    color : white;
+    white-space: pre-line;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .logoImg{
+    height: 40px;
+    margin : 20px;
+  }
+  
+  .mainText {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+  }
+  
+  .subText{
+    padding-left: 25px;
+  }

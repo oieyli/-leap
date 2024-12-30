@@ -1,0 +1,29 @@
+.Home{
+ width: 100%;
+}
+
+.iconImg{
+    height: 780px;
+}
+
+.box {
+    display: flex;
+}
+
+.title{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .stitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 0px;
+  }
+  
+  .btitle {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4a0fa0;
+  }
+  

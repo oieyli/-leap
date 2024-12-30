@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.logoImg {
+  height: 30px;
+  margin: 20px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 10;
+  padding: 0;
+}
+
+.navigation li {
+  margin-left: 70px;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+.navigation li:hover {
+  text-decoration: underline;
+  color: #4a0fa0;
+}
