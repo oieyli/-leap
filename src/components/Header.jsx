@@ -14,6 +14,7 @@ const Header = () => {
                     <li onClick={() => navigate('/manual')}>직장생활매뉴얼</li>
                     <li onClick={() => navigate('/dictionary')}>직장어사전</li>
                     <li onClick={() => navigate('/memo')}>업무메모</li>
+                    <li onClick={() => navigate('/login')}>로그인</li>
                 </ul>
             </nav>
         </header>

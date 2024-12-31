@@ -11,19 +11,39 @@
 }
 
 .title{
-    flex-direction: column;
     text-align: center;
+    margin-top: 150px;
+    margin-left: 12%;
   }
   
   .stitle {
     font-size: 18px;
     color: #555;
-    margin-bottom: 0px;
+    font-weight: 400;
   }
   
   .btitle {
     font-size: 48px;
     font-weight: bold;
     color: #4a0fa0;
+    font-family: "ChangwonDangamAsac-Bold";
   }
   
+  .button {
+    display: flex;
+    gap: 15px; 
+  }
+  
+  .button button {
+    background-color: #4a0fa0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #350b6d;
+  }

@@ -20,6 +20,11 @@ const Home = () => {
         <div className="btitle">
         <p>도약</p>
         </div>
+        <div className="button">
+            <button onClick={() => navigate("/manual")}>직장매뉴얼</button>
+            <button onClick={() => navigate("/dictionary")}>직장어사전</button>
+            <button onClick={() => navigate("/memo")}>업무메모</button>
+          </div>
       </div>
       </div>
       <Footer />
