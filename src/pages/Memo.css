@@ -1,6 +1,6 @@
 .main{
     flex: 1;
-    padding: 1;
+    padding: 5px;
 }
 
 .main-title {
@@ -19,35 +19,7 @@
   
   .memo {
     display: flex;
-    margin-top: 20px;
-  }
-  
-  .memo-list {
-    height: 300px;
-    width: 20%;
-    border: 1px solid #fff;
-    padding: 0px;
-    margin-right: 10px;
-    background-color: #f9f9f9;
-  }
-  
-  .memo-item {
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-  }
-  
-  .memo-item.urgent {
-    background-color: #d32f2f;
-  }
-  
-  .memo-item.important {
-    background-color: #fbc02d;
-  }
-  
-  .memo-item.task {
-    background-color: #1976d2;
+    margin-top: 20px; 
   }
   
   .memo-input {
@@ -60,11 +32,10 @@
     display: flex;
     margin-bottom: 10px;
   }
-  
-  
-  .textarea {
-    height: 300px;
-    width: 45%;
+
+  .textmemo {
+    height: 530px;
+    width: 40px;
     padding: 10px;
     border: 3px solid #5116A8;
     border-radius: 10px;
@@ -76,10 +47,27 @@
     color: white;
     border: none;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
     font-family: "DNFBitBitv2";
-    width: 25%;
+    width: 15%;
     height: 12%;
 
   }
+
+  .important {
+    color: #d32f2f;
+    font-family: "DNFBitBitv2";
+  }
+
+  .urgent {
+    color: #FF7700;
+    font-family: "DNFBitBitv2";
+  }
+
+  .task {
+    color: #0F0F8E;
+    font-family: "DNFBitBitv2";
+  }
+  
+  

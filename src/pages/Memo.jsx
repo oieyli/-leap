@@ -5,53 +5,38 @@ import './Memo.css';
 
 const Memo = () => {
     return (
-    <div className="container">
-    <Header />
-      <div className="main">
+      <div className="Memo">
+      <Header />
+      <div className="body">
       <div className="main-title">
         <h1>업무메모</h1>
       </div>
-      <div className="memo">
-        <div className="memo-list">
-        </div>
-        <div className="memo-input">
+      <div className="memo-input-section">
           <div className="priority-selector">
-            <label>
-              <input
+          <input
                 type="radio"
                 name="priority"
-                value="urgent"
-              />
-              <span className="urgent">긴급</span>
-            </label>
-            <label>
-              <input
-                type="radio"
-                name="priority"
-                value="important"
-              />
-              <span className="important">중요</span>
-            </label>
-            <label>
-              <input
-                type="radio"
-                name="priority"
-                value="task"
-              />
-              <span className="task">업무</span>
-            </label>
-          </div>
-          <textarea
-            placeholder="메모를 입력하세요"
-            className="textarea"
+                value="중요"
           />
-          <button className="register-button">
-            등록
-          </button>
+          <span className="important">중요</span>
+          <input
+                type="radio"
+                name="priority"
+                value="긴급"
+          />
+          <span className="urgent">긴급</span>
+          <input
+                type="radio"
+                name="priority"
+                value="업무"
+          />
+          <span className="task">업무</span>
+          </div>
+          <input type='text' className="textmemo" placeholder="메모를 입력하세요..."></input>
+          <button className="register-button">등록</button>
         </div>
-        </div>
-      </div>
-      <Footer />
+    </div>
+    <Footer />
     </div>
   );
 };
