@@ -53,6 +53,45 @@
     color: #fff;
 }
 
-.output-box {
-    padding: 30px;
+.output-box1 {
+    width: 650px;
+    height: 435px;
+    border: 3px solid #5116A8;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 0 auto;
+    font-family: "DNFBitBitv2";
+    white-space: pre-wrap;
+    line-height: 2.1;
 }
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px;
+    font-family: "DNFBitBitv2";
+  }
+  
+  .pagination button {
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #5116A8; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #361070;
+    transform: scale(1.05); 
+  }
+  
+  

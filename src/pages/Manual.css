@@ -83,9 +83,13 @@ body {
     border: 3px solid #5116A8;
     border-radius: 20px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #f9f9f9;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     text-align: left;
     margin: 0 auto;
+    font-family: "DNFBitBitv2";
+    white-space: pre-wrap;
+    line-height: 2.1;
 }
+
